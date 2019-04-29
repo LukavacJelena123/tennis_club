@@ -1,0 +1,65 @@
+{
+    "membership": [
+        {
+            "id": 1,
+            "category": "Junior",
+            "price": 135,
+            "description": "Junior member must be less than 19 years old as at 1 st January",
+            "fullDescription": "Academy Programme includes daily trainings under the expert supervision of coaches. Plan and programme for each individual is determinated in accordance with the physical condition, maturity and nutritional needs."
+        },
+        {
+            "id": 2,
+            "category": "Individual",
+            "price": 175,
+            "description": "Save $100 compared to the monthly plan by paying yearly",
+            "fullDescription": "Academy Programme includes daily trainings under the expert supervision of coaches. Plan and programme for each individual is determinated in accordance with the physical condition, maturity and nutritional needs."
+        },
+        {
+            "id": 3,
+            "category": "Recommended",
+            "price": 295,
+            "description": "Save $120 by inviting your family to train with you monthly",
+            "fullDescription": "Academy Programme includes daily trainings under the expert supervision of coaches. Plan and programme for each individual is determinated in accordance with the physical condition, maturity and nutritional needs."
+        },
+        {
+            "id": 4,
+            "category": "Family",
+            "price": 295,
+            "description": "Save $120 by inviting your family to train with you monthly",
+            "fullDescription": "Academy Programme includes daily trainings under the expert supervision of coaches. Plan and programme for each individual is determinated in accordance with the physical condition, maturity and nutritional needs."
+        }
+    ],
+    "coaches": [
+        {
+            "id": 1,
+            "title": "professional trainer",
+            "name": "Amy Scott",
+            "img": "../src/img/coach-1.jpg",
+            "description": "Coach with five years of experience at the Academy."
+        },
+        {
+            "id": 2,
+            "title": "assistant",
+            "name": "Anny Grant",
+            "img": "../src/img/coach-3.jpg",
+            "description": "Coditioning trainer, hitting partner, fitness instructor."
+        },
+        {
+            "id": 3,
+            "title": "professional trainer",
+            "name": "Dale Adams",
+            "img": "../src/img/coach-2.jpg",
+            "description": "Former player on the ATP Tour. A member of different tennis coach organizations."
+        },
+        {
+            "id": 4,
+            "title": "club manager",
+            "name": "Lena James",
+            "img": "../src/img/coach-4.jpg",
+            "description": "Dedicated to educating and assisting tennis coaches and players."
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

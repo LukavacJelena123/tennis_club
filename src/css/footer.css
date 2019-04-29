@@ -1,14 +1,12 @@
-.formArticle {color: #707276; background-color: #1a3150; padding: 2em;}
+.formArticle {color: #707276; background-color: #1a3150; padding: 2em;padding-top: 4em}
 .formArticle h2 {text-align: left;color: #fff; font-size: 1.875em;margin-bottom: .325em;font-weight: 700; line-height: 125%}
 .formArticle p {letter-spacing: .5px; text-transform: uppercase;font-weight: 600}
 .formArticle input, textarea{line-height: 1.2em; width: 100%; margin: .75em auto;padding: 1.1em; display: block; font-family: monospace}
 .formArticle [type=button] {margin: 2.857em 0 0; width: 150px;color: #707276;}
 .formArticle textarea {min-height: 8em;}
 .formArticle [type=button]:hover {cursor: pointer;opacity: 0.9; }
-/* @media (max-width: 767px) and (min-width: 480px){
-    .formArticle {height: 250px}   
-} */
 .links {display: flex; flex-wrap: wrap; justify-content: space-around;align-items: center;}
 .links div {padding: 2em;}
+.links h5 {display: none;}
 footer {background-color: #1a3150;color:  #fff; text-align: center; line-height: 4em; }
 footer:hover {color: #96bd42;}
