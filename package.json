@@ -4,7 +4,7 @@
   "description": "Project for the final exam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack --watch --mode development",
     "build": "webpack --mode production",
     "server": "json-server --watch db.json"
@@ -27,7 +27,6 @@
     "gsap": "^2.1.2",
     "imports-loader": "^0.8.0",
     "jquery": "^3.4.0",
-    "lodash": "^4.17.11",
     "scrollmagic": "^2.0.6"
   }
 }

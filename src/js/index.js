@@ -1,12 +1,12 @@
-import _ from 'lodash';
 import displayCoaches from './coaches'
 import display from './membership';
+import {displayWeather} from './weather';
+import validateForm from './formValidation';
 import "@babel/polyfill";
 import'../css/main.css';
 import showSlides from './slider';
 import '../js/modal';
 import $ from 'jquery';
-import { TimelineMax, TweenMax, Linear } from 'gsap';
 import ScrollMagic from 'scrollmagic';
 import 'imports-loader?define=>false!scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 import 'imports-loader?define=>false!scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap';
@@ -14,6 +14,7 @@ import 'imports-loader?define=>false!scrollmagic/scrollmagic/uncompressed/plugin
 displayCoaches();
 showSlides();
 display();
+
 
 let controller = new ScrollMagic.Controller();
 let pinStickyNav = new ScrollMagic.Scene({
@@ -53,3 +54,9 @@ for (const [tag, valTag] of entries) {
     $(`html, body`).animate({scrollTop: $(`#${valTag}`).offset().top}, 1500);
   });
 }
+
+$(`#toggle`).click(displayWeather);
+$(`#weather`).click(function(){
+  $(`#weatherComlete`).toggle();
+});
+$("form").submit(validateForm);

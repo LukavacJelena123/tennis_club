@@ -1,6 +1,7 @@
 @import 'footer.css';
 @import 'header.css';
 @import 'modal.css';
+@import 'weather.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -61,15 +62,17 @@ h5 {color: #96bd42;margin: .2em;padding: 1em 0;}
 #courts p {color: #1b3353; word-wrap: break-word;padding-bottom: 1.5em}
 #courts li {line-height: 1.5em;padding-top: 2em;font-size: .83em;}
 #courts span {color: #96bd42}
-.slideshow-container {margin: 1em auto}
-#map {display: flex;flex-wrap: wrap;justify-content:center;background-color: #f6f7f3;}
-#map img {width: 40%}
-#form{ width: 50%}
+.slideshow-container {margin: 1em auto;}
+#map {display: flex;flex-wrap: wrap;justify-content:center;background-color: #f6f7f3;align-items: center;}
+#form{ width: 40%}
 #contact  {display: flex;flex-wrap: wrap;justify-content:space-around;}
 #contact h3 {color: #1b3353;padding-bottom: 1em;}
 #contact div {padding: 1.5em}
-#contact p {padding: 1em 0; color: #707276;}
+#contact p {padding: .5em 0; color: #707276;}
 #contact i {display: inline-block;font-size: 3em;}
+#submitBtn {background-color: #2d5283;color: #fff; border-radius: 5px;}
+#submitBtn:hover {background-color: #345b8d;}
+#submitBtn:active {background-color: #37639c;box-shadow: 0 5px #666;transform: translateY(4px);}
 .facebook {color: rgb(43, 43, 155);}
 .twitter {color: rgb(84, 131, 219)}
 .youtube {color: rgb(180, 54, 54);}
