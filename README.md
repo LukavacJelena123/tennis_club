@@ -2,7 +2,7 @@
 This project is a part of the final exam, it's a single page website and a theme is: Tennis academy. :tennis:
 The user can get useful information about the club, tennis news or the current weather forecast if he wants to reserve the court.
 
-##Used technology
+## Used technology
 - HTML
 - CSS
 - JS
